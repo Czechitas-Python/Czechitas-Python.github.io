@@ -40,14 +40,14 @@ jobs:
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/uvod-do-progr-2 is:open is:issue'
               
-          - title: 'podlomar/python-data'
+          - title: 'python-data'
             widgets:
             - type: 'table'
               title: 'Pull requests'
-              issue_query: 'repo:podlomar/python-data is:open is:pr'
+              issue_query: 'repo:Czechitas-Python/python-data is:open is:pr'
             - type: 'table'
               title: 'Issues'
-              issue_query: 'repo:podlomar/python-data is:open is:issue'
+              issue_query: 'repo:Czechitas-Python/python-data is:open is:issue'
               
           - title: 'python-data-1'
             widgets:
