@@ -58,14 +58,14 @@ jobs:
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/python-data-1 is:open is:issue'
               
-          - title: 'pesikj/python-pro-powerbi'
+          - title: 'python-pro-powerbi'
             widgets:
             - type: 'table'
               title: 'Pull requests'
-              issue_query: 'repo:pesikj/python-pro-powerbi is:open is:pr'
+              issue_query: 'repo:Czechitas-Python/python-pro-powerbi is:open is:pr'
             - type: 'table'
               title: 'Issues'
-              issue_query: 'repo:pesikj/python-pro-powerbi is:open is:issue'
+              issue_query: 'repo:Czechitas-Python/python-pro-powerbi is:open is:issue'
         token: ${{ github.token }}
 
     - name: Publish Documentation
