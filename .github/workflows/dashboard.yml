@@ -66,6 +66,15 @@ jobs:
             - type: 'table'
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/python-pro-powerbi is:open is:issue'
+              
+          - title: 'python-pro-databaze'
+            widgets:
+            - type: 'table'
+              title: 'Pull requests'
+              issue_query: 'repo:Czechitas-Python/python-pro-databaze is:open is:pr'
+            - type: 'table'
+              title: 'Issues'
+              issue_query: 'repo:Czechitas-Python/python-pro-databaze is:open is:issue'
         token: ${{ github.token }}
 
     - name: Publish Documentation
