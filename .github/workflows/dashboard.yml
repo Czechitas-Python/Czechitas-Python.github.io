@@ -30,7 +30,7 @@ jobs:
             - type: 'table'
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/uvod-do-progr-1 is:open is:issue'
-              
+
           - title: 'uvod-do-progr-2'
             widgets:
             - type: 'table'
@@ -39,16 +39,7 @@ jobs:
             - type: 'table'
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/uvod-do-progr-2 is:open is:issue'
-              
-          - title: 'python-data'
-            widgets:
-            - type: 'table'
-              title: 'Pull requests'
-              issue_query: 'repo:Czechitas-Python/python-data is:open is:pr'
-            - type: 'table'
-              title: 'Issues'
-              issue_query: 'repo:Czechitas-Python/python-data is:open is:issue'
-              
+
           - title: 'python-data-1'
             widgets:
             - type: 'table'
@@ -57,7 +48,7 @@ jobs:
             - type: 'table'
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/python-data-1 is:open is:issue'
-              
+
           - title: 'python-pro-powerbi'
             widgets:
             - type: 'table'
@@ -66,7 +57,7 @@ jobs:
             - type: 'table'
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/python-pro-powerbi is:open is:issue'
-              
+
           - title: 'python-pro-databaze'
             widgets:
             - type: 'table'
@@ -75,6 +66,15 @@ jobs:
             - type: 'table'
               title: 'Issues'
               issue_query: 'repo:Czechitas-Python/python-pro-databaze is:open is:issue'
+
+          - title: 'python-oop'
+            widgets:
+            - type: 'table'
+              title: 'Pull requests'
+              issue_query: 'repo:Czechitas-Python/python-oop is:open is:pr'
+            - type: 'table'
+              title: 'Issues'
+              issue_query: 'repo:Czechitas-Python/python-oop is:open is:issue'
         token: ${{ github.token }}
 
     - name: Publish Documentation
